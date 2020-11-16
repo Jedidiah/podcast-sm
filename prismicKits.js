@@ -4,7 +4,9 @@ import Link from "next/link";
 import smConfig from "./sm.json";
 
 if (!smConfig.apiEndpoint) {
-  console.warn("Looks like Slice Machine hasn't been bootstraped already.\nCheck the `Getting Started` section of the README file :)");
+  console.warn(
+    "Looks like Slice Machine hasn't been bootstraped already.\nCheck the `Getting Started` section of the README file :)"
+  );
 }
 
 export const apiEndpoint = smConfig.apiEndpoint;
@@ -41,13 +43,15 @@ export const customLink = (type, element, content, children, index) => (
 );
 
 export const Router = {
-  routes: [{"type":"page","path":"/:uid"}],
+  routes: [{ type: "page", path: "/:uid" }],
   href: (type) => {
-    const route = Router.routes.find(r => r.type === type);
+    const route = Router.routes.find((r) => r.type === type);
     return route && route.href;
-  }
+  },
 };
 
-export const Client = (req = null, options = {}) => (
-  Prismic.client(apiEndpoint, Object.assign({ routes: Router.routes }, options))
-);
+export const Client = (req = null, options = {}) =>
+  Prismic.client(
+    apiEndpoint,
+    Object.assign({ routes: Router.routes }, options)
+  );
