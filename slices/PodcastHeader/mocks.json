@@ -1,0 +1,149 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "EpisodeList",
+    "primary": {
+      "title": "A text of type \"Podcast Title\" that conveys ",
+      "subtitle": "A text of type \"Podcast Subtitle\" that conveys ",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "evolve B2B models",
+          "spans": []
+        }
+      ],
+      "categories": "A text of type \"Categories (comma seperated)\" that conveys eg: science, nature",
+      "artwork": {
+        "dimensions": {
+          "width": 600,
+          "height": 600
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/8eb81fa6-3408-4f2a-a856-8319ca2b6f8c_YbGMa1Jz1yY.jpg?w=600&h=600",
+        "thumbnail": {
+          "dimensions": {
+            "width": 200,
+            "height": 200
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/dc35ef90-3f97-49a5-a22a-3fb86373dfef_Ka9WMJqV8E8.jpg?w=200&h=200"
+        },
+        "full": {
+          "dimensions": {
+            "width": 2000,
+            "height": 2000
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/02c0841a-df5d-4967-8480-d3a758596191_-PyYwZf0SP0.jpg?w=2000&h=2000"
+        }
+      },
+      "website": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "author": "A text of type \"Podcast Author\" that conveys ",
+      "authorEmail": "A text of type \"Author Email\" that conveys ",
+      "showOnlyEpisodes": true,
+      "showEpisodeArtwork": false
+    },
+    "items": [
+      {
+        "title": "A text of type \"Episode Title\" that conveys Making rainbows with Prismic",
+        "publishedAt": "2012-03-16T20:08:22.344Z",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "leverage strategic blockchains",
+            "spans": []
+          }
+        ],
+        "episodeType": "Trailer",
+        "explicit": false,
+        "audioFile": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "duration": 3561,
+        "artwork": {
+          "dimensions": {
+            "width": 600,
+            "height": 600
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/15fd0037-cfff-4efa-a7a0-cbb9fafd5753_-VKgcOWML4k.jpg?w=600&h=600",
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 200
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.prismic.io/important-sm-images/0e665171-82db-4865-9305-d0885a35db49_eFNybOZupwc.jpg?w=200&h=200"
+          },
+          "full": {
+            "dimensions": {
+              "width": 2000,
+              "height": 2000
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.prismic.io/important-sm-images/0be9cf2b-fb56-44f2-8a28-6569845c633b_NP-pwHBvCYE.jpg?w=2000&h=2000"
+          }
+        }
+      },
+      {
+        "title": "A text of type \"Episode Title\" that conveys Making rainbows with Prismic",
+        "publishedAt": "2013-10-30T09:16:45.807Z",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "evolve plug-and-play functionalities",
+            "spans": []
+          }
+        ],
+        "episodeType": "Trailer",
+        "explicit": false,
+        "audioFile": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "duration": 1360,
+        "artwork": {
+          "dimensions": {
+            "width": 600,
+            "height": 600
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/5dfefc03-62cf-4d72-a6d4-21df65989147_tjpzudpoaMs.jpg?w=600&h=600",
+          "thumbnail": {
+            "dimensions": {
+              "width": 200,
+              "height": 200
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.prismic.io/important-sm-images/716c22ba-9d06-4d2e-b1e5-014cfb0c1051_hWVknfUP7cc.jpg?w=200&h=200"
+          },
+          "full": {
+            "dimensions": {
+              "width": 2000,
+              "height": 2000
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.prismic.io/important-sm-images/5782503d-59e4-4a8a-bc4f-0388ee5b7a3d_Nhm0Uj5U7wc.jpg?w=2000&h=2000"
+          }
+        }
+      }
+    ],
+    "slice_type": "episode_list"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "StoreLinks",
+    "primary": {
+      "intro": [
+        {
+          "type": "paragraph",
+          "text": "aggregate cross-media functionalities",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "title": "A text of type \"\" that conveys ",
+        "url": { "link_type": "Web", "url": "https://slicemachine.dev" }
+      },
+      {
+        "title": "A text of type \"\" that conveys ",
+        "url": { "link_type": "Web", "url": "https://slicemachine.dev" }
+      }
+    ],
+    "slice_type": "store_links"
+  }
+]

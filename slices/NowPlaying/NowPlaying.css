@@ -1,0 +1,32 @@
+.now-playing {
+  background-color: aliceblue;
+  padding: 1em;
+  border-radius: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.now-playing__controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.now-playing__meta {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 2em;
+}
+
+.now-playing__track-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.now-playing__track-title {
+  margin: 0.25em 0;
+}

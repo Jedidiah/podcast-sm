@@ -1,0 +1,60 @@
+{
+  "id": "social_links",
+  "type": "SharedSlice",
+  "name": "SocialLinks",
+  "description": "SocialLinks",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SocialLinks",
+      "primary": {
+        "intro": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "intro",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          }
+        },
+        "twitter": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "twitter",
+            "placeholder": ""
+          }
+        },
+        "instagram": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "instagram",
+            "placeholder": ""
+          }
+        },
+        "youtube": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "youtube",
+            "placeholder": ""
+          }
+        },
+        "soundcloud": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "soundcloud",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

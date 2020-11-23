@@ -6,21 +6,14 @@
     "version": "sktwi1xtmkfgx8626",
     "description": "NowPlaying",
     "primary": {
-      "title": [
-        {
-          "type": "heading1",
-          "text": "This is where it all begins...",
-          "spans": []
-        }
-      ],
-      "description": [
-        {
-          "type": "paragraph",
-          "text": "start by editing this slice from inside the SliceMachine builder!",
-          "spans": []
-        }
-      ]
+      "showSkipForward": false,
+      "showSkipBack": true,
+      "showArtwork": false,
+      "showProgressBar": true,
+      "position": "static",
+      "hideWhenInactive": false
     },
+    "items": [],
     "slice_type": "now_playing"
   }
 ]

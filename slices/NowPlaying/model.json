@@ -11,23 +11,67 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "NowPlaying",
       "primary": {
-        "title": {
-          "type": "StructuredText",
+        "showSkipForward": {
           "config": {
-            "single": "heading1",
-            "label": "Title",
-            "placeholder": "This is where it all begins..."
-          }
+            "label": "Show Skip Forward Button?",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
         },
-        "description": {
-          "type": "StructuredText",
+        "showSkipBack": {
           "config": {
-            "single": "paragraph",
-            "label": "Description",
-            "placeholder": "A nice description of your feature"
-          }
+            "label": "Show Skip Back Button?",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        },
+        "showArtwork": {
+          "config": {
+            "label": "Show Artwork?",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        },
+        "showProgressBar": {
+          "config": {
+            "label": "Show Progress Bar?",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        },
+        "position": {
+          "config": {
+            "label": "Position",
+            "placeholder": "",
+            "default_value": "static",
+            "options": ["static", "fixed", "sticky"]
+          },
+          "type": "Select"
+        },
+        "hideWhenInactive": {
+          "config": {
+            "label": "Hide when nothing is playing?",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
         }
-      }
+      },
+      "items": {}
     }
   ]
 }

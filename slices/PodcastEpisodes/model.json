@@ -1,0 +1,191 @@
+{
+  "id": "podcast",
+  "type": "SharedSlice",
+  "name": "Podcast",
+  "description": "Podcast",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Podcast",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Podcast Title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "subtitle": {
+          "config": {
+            "label": "Podcast Subtitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "categories": {
+          "config": {
+            "label": "Categories (comma seperated)",
+            "placeholder": "eg: science, nature"
+          },
+          "type": "Text"
+        },
+        "artwork": {
+          "config": {
+            "label": "Podcast Artwork (min 2000x2000)",
+            "constraint": {
+              "width": 600,
+              "height": 600
+            },
+            "thumbnails": [
+              {
+                "name": "thumbnail",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "name": "full",
+                "width": 2000,
+                "height": 2000
+              }
+            ]
+          },
+          "type": "Image"
+        },
+        "website": {
+          "config": {
+            "label": "Podcast Website URL",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "author": {
+          "config": {
+            "label": "Podcast Author",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "authorEmail": {
+          "config": {
+            "label": "Author Email",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "showOnlyEpisodes": {
+          "config": {
+            "label": "Show Only Episodes?",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        },
+        "showEpisodeArtwork": {
+          "config": {
+            "label": "Show Episode Artwork?",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {
+        "title": {
+          "config": {
+            "label": "Episode Title",
+            "placeholder": "Making rainbows with Prismic"
+          },
+          "type": "Text"
+        },
+        "publishedAt": {
+          "config": {
+            "label": "Episode published at",
+            "placeholder": ""
+          },
+          "type": "Timestamp"
+        },
+        "description": {
+          "config": {
+            "label": "Episode Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "episodeType": {
+          "config": {
+            "label": "Episode Type",
+            "placeholder": "",
+            "options": ["Full", "Trailer"]
+          },
+          "type": "Select"
+        },
+        "explicit": {
+          "config": {
+            "label": "Contains explicit content?",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        },
+        "audioFile": {
+          "config": {
+            "label": "Audio File",
+            "placeholder": "https://seagazing.com/tracks/d0bf3552a40ec88aadd27f42d8f1e0b26648f59c.mp3",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "duration": {
+          "config": {
+            "label": "Audio Duration (seconds)",
+            "placeholder": "1211"
+          },
+          "type": "Number"
+        },
+        "artwork": {
+          "config": {
+            "label": "Episode Artwork (optional)",
+            "constraint": {
+              "width": 600,
+              "height": 600
+            },
+            "thumbnails": [
+              {
+                "name": "thumbnail",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "name": "full",
+                "width": 2000,
+                "height": 2000
+              }
+            ]
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}

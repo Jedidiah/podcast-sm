@@ -1,0 +1,24 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "SocialLinks",
+    "primary": {
+      "intro": [
+        {
+          "type": "heading1",
+          "text": "monetize distributed infomediaries",
+          "spans": []
+        }
+      ],
+      "twitter": "A text of type \"\" that conveys ",
+      "instagram": "A text of type \"\" that conveys ",
+      "youtube": "A text of type \"\" that conveys ",
+      "soundcloud": "A text of type \"\" that conveys "
+    },
+    "items": [],
+    "slice_type": "social_links"
+  }
+]
